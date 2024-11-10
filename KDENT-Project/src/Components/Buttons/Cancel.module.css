@@ -1,0 +1,28 @@
+.button{
+    text-align: center;
+    height: 35px;
+    width: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #BFA100;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    color: #BFA100;
+    background-color: #ffffff;
+}
+
+.button:hover {
+    background-color: #FFD700;
+    color: #000000;
+    
+}
+
+
+.button:active {
+    background-color: #ffffff;
+    box-shadow: 0 1px #000000;
+    transform: translateZ(2px)
+  }
